@@ -1,0 +1,41 @@
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(95, 95, 219);
+    padding: 15px 30px 15px 50px;
+    border-radius: 80px;
+    margin: 5px 10px 1px 10px;
+    align-items: center;
+}
+
+.btn_con{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    background-color: rgb(6, 6, 233);
+    color: white;
+    border-radius: 10px;
+    padding: 3px 8px 3px 8px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.btn_con:hover{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    background-color: rgb(250, 75, 84);
+    color: rgb(10, 1, 1);
+    border-radius: 10px;
+    padding: 5px 8px 5px 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgb(24, 10, 223);
+    cursor: pointer;
+    border: none;
+}
+h3{
+    display: block;
+    margin: 2px;
+    color: aliceblue;
+}

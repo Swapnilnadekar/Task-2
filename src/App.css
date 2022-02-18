@@ -1,38 +1,98 @@
-.App {
+.app_container {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row_container {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 11px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.align_container {
+  display: flex;
+  align-items: center;
+  background-color: blanchedalmond;
+  padding: 30px 50px;
+  width: 300px;
+  justify-content: center;
+  margin: 10px 50px 50px 50px;
+  box-shadow: 1px 10px 10px 1px rgb(104, 101, 101);
+  border-radius: 5px;
+  transform: scale(1);
+  transition-duration: 500ms;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.align_container:hover {
+  display: flex;
+  align-items: center;
+  background-color: rgb(172, 153, 126);
+  padding: 30px 50px;
+  width: 300px;
+  justify-content: center;
+  margin: 10px 50px 50px 50px;
+  box-shadow: 1px 10px 10px 1px rgb(104, 101, 101);
+  border-radius: 5px;
+  transform: scale(1.07);
+  transition-duration: 500ms;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  height: 130px;
+  width: 150px;
+  margin-right: 10px;
+}
+
+.name {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px 10px 10px 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.userid_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(228, 222, 222);
+  margin: 4px;
+  margin-bottom: 6px;
+  padding: 3px 7px 8px 7px;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.firstn_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(186, 238, 238);
+  margin: 4px;
+  margin-bottom: 6px;
+  padding: 3px 7px 8px 7px;
+  border-radius: 7px;
+}
+
+.lastn_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(228, 222, 222);
+  margin: 4px;
+  margin-bottom: 6px;
+  padding: 3px 7px 8px 7px;
+  border-radius: 7px;
+}
+
+.email_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(186, 238, 238);
+  margin: 4px;
+  margin-bottom: 6px;
+  padding: 3px 7px 8px 7px;
+  border-radius: 7px;
 }
