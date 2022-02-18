@@ -6,7 +6,7 @@ const Header =(props)=> {
 
   return (
       <div className="nav_bar">
-          <h3>LestsGrowMore</h3>
+          <h2>LestsGrowMore</h2>
           <button onClick={props.function} className="btn_con">Get Users</button>
       </div>
   )

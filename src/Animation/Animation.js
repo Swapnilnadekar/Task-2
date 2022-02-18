@@ -16,7 +16,7 @@ import * as loading from "../Animationfile/loading-circles.json"
       <>
       {console.log(props.loadingBar)}
         {props.loadingBar ? (
-          <Lottie options={defaultOptions} height={400} width={400} />
+          <Lottie options={defaultOptions} height={300} width={300} />
           
         ) : null}
       </>
